@@ -7,7 +7,8 @@
 <meta name="description" content="This weekend at Club House at Icon, 22 W Cass St, Joliet. 21+ free cover before 11PM.">
 <meta property="og:title" content="Club House at Icon — This Weekend">
 <meta property="og:description" content="21+ free cover before 11PM. Doors 10PM. 22 W Cass St, Joliet.">
-<meta property="og:image" content="flyers/sat-oct17.jpg">
+<meta property="og:image" content="https://followclubhouse.github.io/weekend/flyers/sat-oct17.jpg">
+<link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&display=swap">
 <!-- Meta Pixel -->
@@ -29,7 +30,8 @@ fbq('init','904813405726449');fbq('track','PageView');
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);-webkit-text-size-adjust:100%}
 body{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 calc(96px + env(safe-area-inset-bottom,0px))}
 .wrap{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:28px;padding-top:max(20px,env(safe-area-inset-top,0px))}
-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{width:min(100%,300px);height:auto;display:block}
 .brand{font-family:var(--display);font-size:1.6rem;line-height:1;letter-spacing:.02em;text-transform:uppercase}
 .brand em{font-style:normal;color:var(--accent)}
 .age{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
@@ -60,7 +62,7 @@ footer{color:var(--muted);font-size:.74rem;line-height:1.5;text-align:center}
 <body>
 <div class="wrap">
   <header>
-    <div class="brand">Club House <em>at Icon</em></div>
+    <img class="logo" src="logo.png" alt="Club House at Icon" width="1200" height="281">
     <div class="age">18+ · 21+ to drink</div>
   </header>
 
